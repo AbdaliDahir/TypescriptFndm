@@ -1,0 +1,15 @@
+Typescript:
+  - Type annotations: (when to use) - (we tell typescript the type)
+    - when a function returns the 'any' type and we need to clarify the value. (JSON.parse)
+    - when we declare a variable on one line then initialize it later.
+      - Example:
+        let x: boolean;
+        x = 1;
+    - when we want a variable to have a type that wan't be inferred.
+
+  - Type inference (Typescript guesses the type) - Always
+
+
+Type annotations & inference for Functions (typescript dont care about logic inside function):
+  - annotations: Code we add to tell Typescript what type of arguments a function will receive and what type of values it will return.
+  - inference : Typescript tries to figure out what type of value a function will return.

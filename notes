@@ -13,3 +13,14 @@ Typescript:
 Type annotations & inference for Functions (typescript dont care about logic inside function):
   - annotations: Code we add to tell Typescript what type of arguments a function will receive and what type of values it will return.
   - inference : Typescript tries to figure out what type of value a function will return.
+
+
+- Arrays
+  - Typed arrays : Arrays where each element is some consistent type of value
+  - WHY DO WE CARE :
+    - Ts can do type inference when extracting values from an array.
+    - Ts can prevent us from adding incompatible values to the array.
+    - We can get help with 'map', 'foreach', 'reduce' Functions.
+    - Flexible - arrays can still contain multiple different types.
+  - WHERE TO USE TYPED ARRAYS?
+    - Any time we need to represent a collection of records with some arbitrary sort order.

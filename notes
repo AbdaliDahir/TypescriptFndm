@@ -24,3 +24,7 @@ Type annotations & inference for Functions (typescript dont care about logic ins
     - Flexible - arrays can still contain multiple different types.
   - WHERE TO USE TYPED ARRAYS?
     - Any time we need to represent a collection of records with some arbitrary sort order.
+
+
+- Tuples: Array-Like structure where each element represents some property of a record.
+

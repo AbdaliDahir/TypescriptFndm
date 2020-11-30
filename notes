@@ -28,3 +28,6 @@ Type annotations & inference for Functions (typescript dont care about logic ins
 
 - Tuples: Array-Like structure where each element represents some property of a record.
 
+- Interfaces: Creates a new type, describint the prperty names and value types of an object.
+
+
